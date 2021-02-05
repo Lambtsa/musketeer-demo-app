@@ -1,0 +1,29 @@
+{
+  "name": "musketeer-demo-app",
+  "version": "1.0.0",
+  "description": "App for presentations",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint '**/*.js'",
+    "lint-watch": "nodemon --exec 'npm run lint --silent'",
+    "test": "mocha --exit './{,!(node_modules)/**}/*.spec.js'",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lambtsa/musketeer-demo-app.git"
+  },
+  "author": "three_musketeers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lambtsa/musketeer-demo-app/issues"
+  },
+  "homepage": "https://github.com/Lambtsa/musketeer-demo-app#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint-config-salt": "^1.1.0",
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.7"
+  }
+}
