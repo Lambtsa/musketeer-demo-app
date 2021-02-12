@@ -184,6 +184,11 @@ img {
   object-fit: cover;
   border-radius: 4px;
 }
+.icon {
+  max-width: 1.5rem;
+  transform: translateY(30%);
+  margin: 0 .3rem;
+}
 span {
   display: block;
 }
