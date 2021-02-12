@@ -24,40 +24,35 @@ function loadSlide(index) {
 
 const slides = [
   {
-    img: '/assets/snippet.png',
-    title: 'Promises',
-    subtitle: 'An object representing the eventual completion or failure of an async operation.',
+    img: 'https://image1.masterfile.com/getImage/NzAwLTAwMDQ1MjQxZW4uMDAwMDAwMDA=AHq-9c/700-00045241en_Masterfile.jpg',
+    title: 'Express routing',
+    subtitle: 'How to use routing in an ExpressJS server?',
   },
   {
-    img: 'https://i.ytimg.com/vi/lHue3INUPs0/maxresdefault.jpg',
-    title: 'What is a promise?',
-    subtitle: "In layman's terms...",
+    img: 'assets/simpleExpress.png',
+    title: 'Basic Routing',
+    subtitle: "Building an API in ExpressJS from scratch.",
   },
   {
-    img: '/assets/split-img.png',
-    title: 'How does it work?',
-    subtitle: 'The promise will be in a pending state until either its resolve or reject method are called',
+    img: 'https://i.pinimg.com/originals/35/fa/ec/35faec60b66c1d29bcb4895db681722e.jpg',
+    title: 'The project grows...',
+    subtitle: 'As the project grows, more and more routes increase complexity inside app.js.',
   },
   {
-    img: '/assets/search.png',
-    title: 'How to spot them?',
-    subtitle: 'Look for some JavaScript keywords that are specific to promises.',
+    img: 'assets/traffic.png',
+    title: 'Structured routing',
+    subtitle: 'Starting to structure the route by grouping together similar paths',
   },
   {
-    img: '/assets/pros-cons.png',
-    title: 'Pros and cons',
-    subtitle: 'A huge improvement on callbacks, but there are still caveats.',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/1200px-MVC-Process.svg.png',
+    title: 'Going forward',
+    subtitle: 'MVC - Model, Views, Controllers',
   },
   {
-    img: 'https://specials-images.forbesimg.com/imageserve/1005439086/960x0.jpg?fit=scale',
-    title: 'Biggest pain',
-    subtitle: 'Defining a meaningful TDD strategy.',
+    img: 'https://i.etsystatic.com/25282674/r/il/dcc661/2549068358/il_1588xN.2549068358_i5i7.jpg',
+    title: 'Mustacheteers E-commerce',
+    subtitle: 'Everything you need with stashes',
   },
-  {
-    img: 'https://www.reedpublicrelations.com/wp-content/uploads/2019/11/Reed-blog-post-image.jpg',
-    title: 'Thank you',
-    subtitle: 'Thank you for your attention, any questions?',
-  }
 ]
 
 loadSlide(currentSlide);
