@@ -24,34 +24,39 @@ function loadSlide(index) {
 
 const slides = [
   {
-    img: 'https://image1.masterfile.com/getImage/NzAwLTAwMDQ1MjQxZW4uMDAwMDAwMDA=AHq-9c/700-00045241en_Masterfile.jpg',
-    title: 'Express routing',
-    subtitle: 'How to use routing in an ExpressJS server?',
+    img: 'https://media.istockphoto.com/photos/working-at-the-road-construction-picture-id501962185?k=6&m=501962185&s=612x612&w=0&h=EyYd8WNoESzVZ8Lp-c486wXI3A9gTMBeK3yxLED4b3Q=',
+    title: 'React Context and State',
+    subtitle: 'Explaining context and state for a react application.',
   },
   {
-    img: 'assets/simpleExpress.png',
-    title: 'Basic Routing',
-    subtitle: "Building an API in ExpressJS from scratch.",
+    img: 'assets/prop_drilling.png',
+    title: 'Imagine…',
+    subtitle: "Imagine the following scenario...",
   },
   {
-    img: 'https://i.pinimg.com/originals/35/fa/ec/35faec60b66c1d29bcb4895db681722e.jpg',
-    title: 'The project grows...',
-    subtitle: 'As the project grows, more and more routes increase complexity inside app.js.',
+    img: 'assets/context.png',
+    title: 'React Context',
+    subtitle: 'What is React Context?',
   },
   {
-    img: 'assets/traffic.png',
-    title: 'Structured routing',
-    subtitle: 'Starting to structure the route by grouping together similar paths',
+    img: 'assets/usecases.png',
+    title: 'When should you use it?',
+    subtitle: 'What types of data are or situations are good for context? ',
   },
   {
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/1200px-MVC-Process.svg.png',
-    title: 'Going forward',
-    subtitle: 'MVC - Model, Views, Controllers',
+    img: 'assets/composition.png',
+    title: 'Composition',
+    subtitle: 'Sometimes Context is not necessary.',
   },
   {
-    img: 'https://i.etsystatic.com/25282674/r/il/dcc661/2549068358/il_1588xN.2549068358_i5i7.jpg',
-    title: 'Mustacheteers E-commerce',
-    subtitle: 'Everything you need with stashes',
+    img: 'https://redux.js.org/img/redux-logo-landscape.png',
+    title: 'Alternative approaches',
+    subtitle: 'What are the alternative approaches to Context?',
+  },
+  {
+    img: 'assets/moustache.svg',
+    title: 'Our App',
+    subtitle: 'Demonstration of context in context 🤪.',
   },
 ]
 
